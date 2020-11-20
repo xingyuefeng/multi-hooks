@@ -1,0 +1,33 @@
+{
+  "name": "hooks",
+  "version": "0.0.1",
+  "description": "hooks集合",
+  "keywords": [
+    "react",
+    "hooks"
+  ],
+  "author": "xingyuefeng <15262870437@163.com>",
+  "homepage": "https://github.com/xingyuefeng/multi-hooks#readme",
+  "license": "ISC",
+  "main": "lib/hooks.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xingyuefeng/multi-hooks.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/xingyuefeng/multi-hooks/issues"
+  }
+}
