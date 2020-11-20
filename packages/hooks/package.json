@@ -9,7 +9,7 @@
   "author": "xingyuefeng <15262870437@163.com>",
   "homepage": "https://github.com/xingyuefeng/multi-hooks#readme",
   "license": "ISC",
-  "main": "lib/hooks.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -17,6 +17,9 @@
   "files": [
     "lib"
   ],
+  "peerDependencies": {
+    "react": "^16.8.6"
+  },
   "publishConfig": {
     "registry": "http://registry.npmjs.org/"
   },
@@ -25,9 +28,12 @@
     "url": "git+https://github.com/xingyuefeng/multi-hooks.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "build": "father-build --config "
   },
   "bugs": {
     "url": "https://github.com/xingyuefeng/multi-hooks/issues"
+  },
+  "devDependencies": {
+    "father-build": "^1.18.6"
   }
 }

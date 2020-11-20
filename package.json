@@ -1,7 +1,46 @@
 {
-  "name": "root",
   "private": true,
+  "name": "multi-hooks",
+  "version": "1.0.0",
+  "scripts": {
+    "init": "rm -rf node_modules && npm install && npm run clean && npm run bootstrap && npm run build",
+    "start": "dumi dev",
+    "docs:build": "dumi build",
+    "docs:deploy": "gh-pages -d docs-dist",
+    "build": "father-build",
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna clean --yes",
+    "deploy": "npm run docs:build && npm run docs:deploy",
+    "release": "npm run build && npm publish",
+    "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
+    "test": "umi-test",
+    "test:coverage": "umi-test --coverage"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "typings": "dist/index.d.ts",
+  "gitHooks": {
+    "pre-commit": "lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,jsx,less,md,json}": [
+      "prettier --write"
+    ],
+    "*.ts?(x)": [
+      "prettier --parser=typescript --write"
+    ]
+  },
+  "dependencies": {
+    "react": "^16.12.0"
+  },
   "devDependencies": {
-    "lerna": "^3.22.0"
+    "@umijs/test": "^3.0.5",
+    "dumi": "^1.0.36",
+    "father-build": "^1.18.6",
+    "gh-pages": "^3.0.0",
+    "lerna": "^3.22.1",
+    "lint-staged": "^10.0.7",
+    "prettier": "^1.19.1",
+    "yorkie": "^2.0.0"
   }
 }
