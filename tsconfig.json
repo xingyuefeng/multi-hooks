@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "declaration": true,
     "target": "esnext",
     "module": "esnext",
     "moduleResolution": "node",
@@ -10,7 +11,7 @@
     "baseUrl": "./",
     "strict": true,
     "paths": {
-      "@/*": ["src/*"],
+      "@/*": ["src/*"]
     },
     "allowSyntheticDefaultImports": true
   },
@@ -22,6 +23,5 @@
     "typings",
     "**/__test__",
     "test",
-    "**/demo/**"
   ]
 }

@@ -8,7 +8,7 @@
   ],
   "author": "xingyuefeng <15262870437@163.com>",
   "homepage": "https://github.com/xingyuefeng/multi-hooks#readme",
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/index.js",
   "module": "es/index.js",
   "types": "lib/index.d.ts",
