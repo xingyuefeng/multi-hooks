@@ -4,5 +4,4 @@ export default {
     importLibToEs: true,
   },
   cjs: 'babel',
-  
 };
