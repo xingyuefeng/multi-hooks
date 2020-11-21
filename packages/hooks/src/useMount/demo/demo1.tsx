@@ -7,7 +7,7 @@
  */
 
 import React, { useState } from 'react';
-import { message, Button } from 'antd';
+import { message } from 'antd';
 import { useMount } from 'mhooks';
 
 const MyComponent = () => {

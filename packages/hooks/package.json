@@ -4,18 +4,19 @@
   "description": "hooks集合",
   "keywords": [
     "react",
-    "hooks"
+    "mhooks"
   ],
   "author": "xingyuefeng <15262870437@163.com>",
   "homepage": "https://github.com/xingyuefeng/multi-hooks#readme",
   "license": "ISC",
   "main": "lib/index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
+  "module": "es/index.js",
+  "types": "lib/index.d.ts",
   "files": [
-    "lib"
+    "lib",
+    "es",
+    "src",
+    "dist"
   ],
   "peerDependencies": {
     "react": "^16.8.6"
@@ -27,13 +28,7 @@
     "type": "git",
     "url": "git+https://github.com/xingyuefeng/multi-hooks.git"
   },
-  "scripts": {
-    "build": "father-build --config "
-  },
   "bugs": {
     "url": "https://github.com/xingyuefeng/multi-hooks/issues"
-  },
-  "devDependencies": {
-    "father-build": "^1.18.6"
   }
 }
