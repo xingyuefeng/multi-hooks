@@ -8,7 +8,7 @@
 
 import React, { useState } from 'react';
 import { message } from 'antd';
-import { useMount } from 'mhooks';
+import { useMount } from 'xhooks';
 
 const MyComponent = () => {
   useMount(() => {

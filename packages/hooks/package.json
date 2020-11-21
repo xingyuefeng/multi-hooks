@@ -1,10 +1,10 @@
 {
-  "name": "mhooks",
+  "name": "xhooks",
   "version": "0.0.3",
   "description": "hooks集合",
   "keywords": [
     "react",
-    "mhooks"
+    "xhooks"
   ],
   "author": "xingyuefeng <15262870437@163.com>",
   "homepage": "https://github.com/xingyuefeng/multi-hooks#readme",
@@ -31,5 +31,5 @@
   "bugs": {
     "url": "https://github.com/xingyuefeng/multi-hooks/issues"
   },
-  "gitHead": "0695268bc96cf1d07602f7067121f7afbcaa8e84"
+  "gitHead": "a8488061c11989d3e421f3499780f0df1d25b0c9"
 }
