@@ -5,13 +5,13 @@
 ## 📦 Install 安装
 
 ```
-npm i ahooks --save
+npm i yhooks --save
 ```
 
 ## Usage
 
 ```
-const hooks = require('mhooks');
+const hooks = require('yhooks');
 
 // TODO: DEMONSTRATE API
 ```
