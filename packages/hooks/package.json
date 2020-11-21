@@ -1,10 +1,10 @@
 {
-  "name": "xhooks",
+  "name": "yhooks",
   "version": "0.0.4",
   "description": "hooks集合",
   "keywords": [
     "react",
-    "xhooks"
+    "yhooks"
   ],
   "author": "xingyuefeng <15262870437@163.com>",
   "homepage": "https://github.com/xingyuefeng/multi-hooks#readme",
@@ -31,5 +31,5 @@
   "bugs": {
     "url": "https://github.com/xingyuefeng/multi-hooks/issues"
   },
-  "gitHead": "a8488061c11989d3e421f3499780f0df1d25b0c9"
+  "gitHead": "bbc44b2356c7f416628f419ec0a1a15a946d5c2d"
 }
