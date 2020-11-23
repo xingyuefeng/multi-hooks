@@ -1,14 +1,13 @@
 import { defineConfig } from 'dumi';
 
 export default defineConfig({
-  title: 'multi-hooks',
-  favicon: '/images/img.jpeg',
-  logo: '/images/img.jpeg',
+  title: 'yhooks',
+  favicon: '/multi-hooks/images/img.jpeg',
+  logo: '/multi-hooks/images/img.jpeg',
   outputPath: 'docs-dist',
   publicPath: '/multi-hooks/',
   base: '/multi-hooks/',
-  // more config: https://d.umijs.org/config
-
+  description: 'react hooks集合',
   extraBabelPlugins: [
     [
       'babel-plugin-import',

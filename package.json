@@ -1,6 +1,10 @@
 {
   "name": "multi-hooks",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xingyuefeng/multi-hooks.git"
+  },
   "scripts": {
     "init": "rm -rf node_modules && npm install && npm run clean && npm run bootstrap && npm run build",
     "start": "dumi dev",
