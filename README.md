@@ -1,27 +1,6 @@
 # multi-hooks
 
-## Getting Started
 
-Install dependencies,
+## 预览
 
-```bash
-$ npm i
-```
-
-Start the dev server,
-
-```bash
-$ npm start
-```
-
-Build documentation,
-
-```bash
-$ npm run docs:build
-```
-
-Build library via `father-build`,
-
-```bash
-$ npm run build
-```
+[文档预览](http://xingyuefeng.cn/multi-hooks)
