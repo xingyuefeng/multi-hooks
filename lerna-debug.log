@@ -1,5 +1,5 @@
-36 error Error: Command failed: git tag v0.0.2 -m v0.0.2
-36 error fatal: tag 'v0.0.2' already exists
+36 error Error: Command failed: git tag v0.0.3 -m v0.0.3
+36 error fatal: tag 'v0.0.3' already exists
 36 error
 36 error     at makeError (/Users/xingyuefeng/code/github/multi-hooks/node_modules/@lerna/child-process/node_modules/execa/index.js:174:9)
 36 error     at /Users/xingyuefeng/code/github/multi-hooks/node_modules/@lerna/child-process/node_modules/execa/index.js:278:16
