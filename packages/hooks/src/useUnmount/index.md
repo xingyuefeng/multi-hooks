@@ -12,9 +12,13 @@ group:
 
 ## 代码演示
 
-### 基础用法
+### 基础用法1
 
 <code src="./demos/demo1.tsx" />
+
+### 基础用法2
+
+<code src="./demos/demo2.tsx" />
 
 ## API
 
