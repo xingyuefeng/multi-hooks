@@ -9,14 +9,16 @@
   "author": "xingyuefeng <15262870437@163.com>",
   "homepage": "https://github.com/xingyuefeng/multi-hooks#readme",
   "license": "MIT",
-  "main": "lib/index.js",
-  "module": "es/index.js",
-  "types": "lib/index.d.ts",
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
+  "types": "./lib/index.d.ts",
   "files": [
     "lib",
     "es",
     "src",
-    "dist"
+    "dist",
+    "package.json",
+    "README.md"
   ],
   "peerDependencies": {
     "react": "^16.8.6"
