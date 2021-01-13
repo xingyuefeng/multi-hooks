@@ -15,6 +15,7 @@ const TestHooks = () => {
   return { addCount, persistFn };
 };
 
+// ReturnType 获取函数返回值的类型
 let hook: RenderHookResult<[], ReturnType<typeof TestHooks>>;
 
 describe('usePersistFn', () => {

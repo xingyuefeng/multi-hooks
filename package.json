@@ -41,6 +41,7 @@
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
     "react-test-renderer": "^17.0.1",
+    "ts-jest": "^26.4.4",
     "yorkie": "^2.0.0"
   }
 }
