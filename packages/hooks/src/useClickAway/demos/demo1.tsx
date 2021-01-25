@@ -5,14 +5,13 @@
  */
 
 import React, { useState, useRef, MutableRefObject } from 'react';
-import { message } from 'antd';
 import { useClickAway } from 'yhooks';
 
 
 export default () => {
   const [counter, setCounter] = useState(0);
   
-  const ref = useRef<HTMLDivElement>(null);
+  const ref = useRef<HTMLButtonElement>(null);
 
   useClickAway(() => {
     setCounter((s) => s + 1);
@@ -21,7 +20,7 @@ export default () => {
   return (
     <div>
       <span ref={ref}>
-        <button type="button">box1</button>
+        <button type="button" ref={ref}>box1</button>
       </span>
       <p>counter: {counter}</p>
     </div>

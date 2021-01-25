@@ -4,4 +4,5 @@ import useLockFn from './useLockFn';
 import useUnmount from './useUnmount';
 import usePersistFn from './usePersistFn';
 import useInterval from './useInterval';
-export { useMount, useClickAway, useLockFn, useUnmount, usePersistFn, useInterval };
+import useSize from './useSize';
+export { useMount, useClickAway, useLockFn, useUnmount, usePersistFn, useInterval, useSize };

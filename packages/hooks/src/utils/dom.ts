@@ -7,7 +7,7 @@ export type BasicTarget<T = HTMLElement> =
   // ref 泛型
   | MutableRefObject<T>
 
-  type TargetElement = HTMLElement | Element | Document | Window;
+type TargetElement = HTMLElement | Element | Document | Window;
 
 
 export function getTargetElement(

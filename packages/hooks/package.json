@@ -33,5 +33,8 @@
   "bugs": {
     "url": "https://github.com/xingyuefeng/multi-hooks/issues"
   },
-  "gitHead": "bbc44b2356c7f416628f419ec0a1a15a946d5c2d"
+  "gitHead": "3425719fd8d4cfbf6497e1ab245e1fbbefea4dc6",
+  "dependencies": {
+    "resize-observer-polyfill": "^1.5.1"
+  }
 }

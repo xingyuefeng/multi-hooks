@@ -4,6 +4,7 @@ import useLockFn from './useLockFn';
 import useUnmount from './useUnmount';
 import usePersistFn from './usePersistFn';
 import useInterval from './useInterval';
+import useSize from './useSize';
 
 export {
   useMount,
@@ -11,5 +12,6 @@ export {
   useLockFn,
   useUnmount,
   usePersistFn,
-  useInterval
+  useInterval,
+  useSize
 }
