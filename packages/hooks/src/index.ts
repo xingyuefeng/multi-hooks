@@ -5,6 +5,7 @@ import useUnmount from './useUnmount';
 import usePersistFn from './usePersistFn';
 import useInterval from './useInterval';
 import useSize from './useSize';
+import useToggle from './useToggle';
 
 export {
   useMount,
@@ -13,5 +14,6 @@ export {
   useUnmount,
   usePersistFn,
   useInterval,
-  useSize
+  useSize,
+  useToggle
 }
