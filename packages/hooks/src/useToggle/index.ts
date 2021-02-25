@@ -26,22 +26,26 @@ function useToggle<D extends IState, R extends IState>(
   const [state, setState] = useState<D | R>(defaultValue);
 
   const actions = useMemo(() => {
-    const reverseValueOrigin =
-      reverseValue === undefined || reverseValue === null
-        ? !defaultValue
-        : reverseValue;
+    const reverseOriginValue = (reverseValue === undefined
+      ? !defaultValue
+      : reverseValue) as D | R;
 
     const toggle = (value?: D | R) => {
-      if (value !== undefined || value !== null) {
+      // 强制切换
+      if (value !== undefined) {
         setState(value);
+        // 取反
       } else {
         setState(val =>
-          val === defaultValue ? reverseValueOrigin : defaultValue,
+          val === defaultValue ? reverseOriginValue : defaultValue,
         );
       }
     };
-    const setLeft = () => {};
-    const setRight = () => {};
+
+    // 设置左边值
+    const setLeft = () => setState(defaultValue);
+
+    const setRight = () => setState(reverseOriginValue);
 
     return {
       toggle,

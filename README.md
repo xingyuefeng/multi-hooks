@@ -1,6 +1,6 @@
 # multi-hooks
 
-`react`自定义`hooks`方法集合
+`react`自定义`hooks`方法集合,学习借鉴[ahooks](https://ahooks.js.org/)
 
 ## 预览yhooks
 
