@@ -6,6 +6,7 @@ import usePersistFn from './usePersistFn';
 import useInterval from './useInterval';
 import useSize from './useSize';
 import useToggle from './useToggle';
+import useUpdateEffect from './useUpdateEffect';
 
 export {
   useMount,
@@ -15,5 +16,6 @@ export {
   usePersistFn,
   useInterval,
   useSize,
-  useToggle
+  useToggle,
+  useUpdateEffect
 }

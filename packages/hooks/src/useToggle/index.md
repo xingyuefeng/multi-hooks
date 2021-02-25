@@ -1,5 +1,5 @@
 ---
-title: useSize
+title: useToggle
 group:
   title: State
   path: /state
