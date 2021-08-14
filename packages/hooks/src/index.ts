@@ -14,8 +14,8 @@ export {
   useLockFn,
   useUnmount,
   usePersistFn,
-  useInterval,
   useSize,
   useToggle,
-  useUpdateEffect
+  useUpdateEffect,
+  useInterval
 }

@@ -7,15 +7,15 @@ group:
 
 # useInterval
 
-一个可以处理 setInterval 的 Hook。
+定时器hook。
 
 ## 代码演示
 
-### 基础用法
+### 基础用法1
 
 <code src="./demos/demo1.tsx" />
 
-### 进阶使用
+### 基础用法2
 
 <code src="./demos/demo2.tsx" />
 
