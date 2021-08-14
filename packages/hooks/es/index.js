@@ -5,4 +5,6 @@ import useUnmount from './useUnmount';
 import usePersistFn from './usePersistFn';
 import useInterval from './useInterval';
 import useSize from './useSize';
-export { useMount, useClickAway, useLockFn, useUnmount, usePersistFn, useInterval, useSize };
+import useToggle from './useToggle';
+import useUpdateEffect from './useUpdateEffect';
+export { useMount, useClickAway, useLockFn, useUnmount, usePersistFn, useSize, useToggle, useUpdateEffect, useInterval };
